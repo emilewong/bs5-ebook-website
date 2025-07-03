@@ -1,2 +1,26 @@
-node_modules
-css
+# Dependencies
+node_modules/
+
+# Build output
+css/
+
+# Environment variables
+.env
+.env.local
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/

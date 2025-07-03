@@ -1,39 +1,45 @@
+/* Navbar hover styles - inverse text color on light button hover */
 .navbar .btn-outline-light:hover {
     color: var(--bs-dark)
 }
 
+/* Base navbar styles with transition animation */
 .navbar {
     transition: all 0.5s ease-in-out;
 }
 
+/* Sticky navbar styles applied on scroll - semi-transparent with shadow */
 .navbar-sticky {
     opacity: 0.85;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+/* Header section with full-width background image */
 .header {
     background: url(../images/header-background.jpg) center center no-repeat;
     background-size: cover;
 }
 
-
+/* Custom modal dialog width for better content display */
 .modal-dialog {
     max-width: 1040px;
 }
 
+/* Download section with background image */
 .download {
     background: url('../images/download-background.jpg') center center no-repeat
 }
 
+/* Google Map iframe styling to fill container */
 .map iframe {
     left: 0;
     top: 0;
     height: 400px;
     width: 100%;
     border: none;
-
 }
 
+/* Responsive adjustments for medium screens (1000px and below) */
 @media(max-width: 1000px) {
     .hero .image-container {
         display: flex;
@@ -45,6 +51,7 @@
     }
 }
 
+/* Mobile navbar styling (767px and below) - solid background */
 @media(max-width: 767px){
     .navbar {
         background: var(--bs-dark);
